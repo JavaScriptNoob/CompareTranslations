@@ -1,0 +1,48 @@
+.separate {
+margin-left:10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.jumbotron {
+    padding: 20px;
+}
+.radio-form {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.25rem;
+}
+.form-check {}
+.bg-red {
+    background-color: rgb(18, 18, 39);
+    margin-bottom: 25px;
+}
+#crazyBorder {
+    border: 1px solid rgba(46, 13, 13, 0.918) !important;
+    text-shadow: 3px 3px 3px rgba(58, 2, 2, 0.822) !important;
+}
+#nameBtn, #nameBtn1
+{    
+    padding: 5px;
+    width: 160px;
+    border-radius: 5px; 
+    
+    color:white;
+    background-clip:padding-box;
+    background-color: rgb(20, 16, 16);
+    border: 8px solid rgb(31, 33, 39);
+}
+.buttons {
+    display: flex;
+
+}
+.buttons:nth-child(2){
+    margin-left: 20px;
+}
